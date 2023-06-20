@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.outerEvent {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+.firstEventChild {
+  min-height: 100%;
+  width: 60%;
+  background-color: #3a4b63;
+  padding: 30px;
+  color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+}
+.secondEventChild {
+  min-height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: static;
+}
+.mainHeading {
+  width: 100%;
+}
+.firstEventChildInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}

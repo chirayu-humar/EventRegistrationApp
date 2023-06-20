@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.outerEventItem {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+}
+.firstChild {
+  width: 100%;
+}
+.image {
+  width: 100%;
+}

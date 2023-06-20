@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.imageTemp {
+  width: 50px;
+  height: 50px;
+}
+.registeredImage {
+  width: 50px;
+}
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: static;
+}
